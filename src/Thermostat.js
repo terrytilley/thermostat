@@ -53,5 +53,9 @@ Thermostat.prototype = {
 
   switchPowerSavingModeOn: function() {
     this.powerSavingMode = true;
+  },
+
+  resetTemperature: function() {
+    this.temperature = DEFAULT_TEMP;
   }
 };
