@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   displayWeather('London');
 
-  $('#select-city').submit(function(event) {
+  $('#current-city').change(function(event) {
     event.preventDefault();
     var city = $('#current-city').val();
     displayWeather(city);
